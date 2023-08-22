@@ -1,0 +1,22 @@
+.authsidebar {
+  height: 100vh;
+  width: 520px;
+  background-color: #248159;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #d7f3e7;
+}
+
+.authsidebar p {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 32px;
+  color:#d7f3e7 ;
+}
