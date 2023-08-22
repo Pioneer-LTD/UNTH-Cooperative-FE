@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import AuthSidebar from "../../components/authSidebar";
 import { BsFillPersonFill } from "react-icons/bs";
 import Input from "../../components/input";
 import Button from "../../components/button";
+import { appContext } from "../../contexts/appContext";
 
 const Login = () => {
   const [role, setRole] = useState("");
+
+  // const {name} = useContext(appContext)
+  // console.log(name)
 
   const handleRoleChange = (event) => {
     const value = event.target.value;
