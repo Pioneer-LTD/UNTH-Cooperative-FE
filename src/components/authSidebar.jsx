@@ -2,7 +2,7 @@
 import UNTHIcon from '../assets/unth-Icon.png'
 // import './authSideBar.css'
 
-const authSidebar = () => {
+const AuthSidebar = () => {
   return (
     <section className='w-2/3 h-screen bg-light-primary-green flex flex-col items-center justify-center'>
       <div className='p-5 bg-light-primary-blue rounded-3xl mb-5'>
@@ -13,4 +13,4 @@ const authSidebar = () => {
   );
 }
 
-export default authSidebar
+export default AuthSidebar
