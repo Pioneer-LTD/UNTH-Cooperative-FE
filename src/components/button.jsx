@@ -1,15 +1,19 @@
+import PropTypes from "prop-types";
 
-import PropTypes from 'prop-types'
-
-const Button = ({value}) => {
-  return (
-    <div>
-        <button className='bg-dark-primary-green py-3 w-full rounded text-white'>{value}</button>
-    </div>
-  )
-}
+const Button = ({ value, onClick, type }) => {
+	return (
+		<div>
+			<button
+				className="bg-dark-primary-green py-3 w-full rounded text-white"
+				onClick={onClick}
+				type={type}>
+				{value}
+			</button>
+		</div>
+	);
+};
 Button.propTypes = {
-  value:PropTypes.string.isRequired,
+	value: PropTypes.string.isRequired,
 };
 
-export default Button
+export default Button;
