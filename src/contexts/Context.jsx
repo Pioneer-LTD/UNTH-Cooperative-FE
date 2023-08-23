@@ -4,9 +4,11 @@ import PropTypes from 'prop-types'
 
 const Context = ({children}) => {
     // const [name, setNme] = useState('kennet')
+  const [role, setRole] = useState("");
+
 
   return (
-   <appContext.Provider value={{}}>
+   <appContext.Provider value={{role,setRole}}>
     {children}
    </appContext.Provider>
   )

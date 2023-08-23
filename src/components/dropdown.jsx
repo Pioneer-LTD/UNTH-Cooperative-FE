@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Dropdown = ({ label, placeHolder, onChange, value, options }) => {
+const Dropdown = ({ label, onChange, value, options }) => {
 	return (
 		<div className="flex flex-col text-start">
 			<label
@@ -32,6 +32,13 @@ const Dropdown = ({ label, placeHolder, onChange, value, options }) => {
 			</select>
 		</div>
 	);
+};
+
+Dropdown.propTypes = {
+  label: PropTypes.string.isRequired,
+  onChange: PropTypes,
+  value: PropTypes,
+  options: PropTypes,
 };
 
 export default Dropdown;
