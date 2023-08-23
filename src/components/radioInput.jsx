@@ -1,3 +1,4 @@
+import {PropTypes} from 'prop-types'
 const RadioInput = ({
 	labelText,
 	options,
@@ -30,6 +31,12 @@ const RadioInput = ({
 			</div>
 		</div>
 	);
+};
+RadioInput.propTypes = {
+labelText: PropTypes.string.isRequired,
+options: PropTypes,
+initialSelection: PropTypes,
+updatedSelection: PropTypes,
 };
 
 export default RadioInput;

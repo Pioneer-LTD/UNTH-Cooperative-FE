@@ -1,4 +1,3 @@
-import React from "react";
 import AuthSidebar from "../../components/authSidebar";
 import Button from "../../components/button";
 import Input from "../../components/input";

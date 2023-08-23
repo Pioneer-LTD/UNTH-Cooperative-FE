@@ -62,7 +62,7 @@ const Login = () => {
           <Button value={"Login"}></Button>
           <p className="mt-2">
             Don&apos;t have an account?
-             <Link to='/signup' className="text-dark-primary-green"> Signup</Link>
+             <Link to='/signup' className="text-dark-primary-green"> SIGN UP</Link>
           </p>
           <p className="mt-1">
             Forgot password?
