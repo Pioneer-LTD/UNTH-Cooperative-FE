@@ -1,0 +1,47 @@
+[
+	{
+		"fullName": "Paul Eze",
+		"department": "Data and Health",
+		"ippisNo": "12345",
+		"designation": "Chief Officer",
+		"phoneNumber": "08172233322",
+		"imageUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
+		"status": "Inactive"
+	},
+	{
+		"fullName": "Queen Juliet",
+		"department": "Supplies and Stores",
+		"ippisNo": "12345",
+		"designation": "Asst. Chief Officer",
+		"phoneNumber": "08172233322",
+		"imageUrl": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+		"status": "Active"
+	},
+	{
+		"fullName": "Ifunanya Caleb",
+		"department": "Supplies and Stores",
+		"ippisNo": "12345",
+		"designation": "Asst. Chief Officer",
+		"phoneNumber": "08172233322",
+		"imageUrl": "https://images.unsplash.com/photo-1504199367641-aba8151af406?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+		"status": "Active"
+	},
+	{
+		"fullName": "Habeebah Ogunlewe",
+		"department": "Supplies and Stores",
+		"ippisNo": "12345",
+		"designation": "Asst. Chief Officer",
+		"phoneNumber": "08172233322",
+		"imageUrl": "https://images.unsplash.com/photo-1531475925016-6d33cb7c8344?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+		"status": "Inactive"
+	},
+	{
+		"fullName": "Prince Akachi",
+		"department": "Supplies and Stores",
+		"ippisNo": "12345",
+		"designation": "Asst. Chief Officer",
+		"phoneNumber": "08172233322",
+		"imageUrl": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
+		"status": "Active"
+	}
+]

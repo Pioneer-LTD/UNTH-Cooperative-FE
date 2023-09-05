@@ -1,0 +1,23 @@
+.bg-green {
+	background-color: #30a170;
+}
+.navlink {
+	padding: 12px 20px !important;
+	border-radius: 10px 0 0 10px;
+	transition: all 0.3s ease-in-out;
+	color: white;
+	font-size: 14px;
+}
+.navlink:hover {
+	background-color: #30a170;
+}
+.active {
+	background-color: #30a170;
+	border-right: 3px solid white;
+}
+.logout {
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	margin-top: 100px !important;
+}

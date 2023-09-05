@@ -1,0 +1,32 @@
+.active-span {
+	background: rgba(3, 101, 59, 0.24);
+	padding: 2px 5px;
+	border-radius: 5px;
+	color: #000;
+}
+.inactive-span {
+	background: rgba(183, 28, 28, 0.24);
+	padding: 2px 5px;
+	border-radius: 5px;
+	color: #000;
+}
+label {
+	font-size: 14px;
+	color: gray;
+}
+
+.member img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid red;
+}
+.member-main {
+	height: 695px !important;
+}
+.member-container {
+	height: 85% !important;
+	/* border: 2px solid red; */
+	padding: 10px 0;
+}
