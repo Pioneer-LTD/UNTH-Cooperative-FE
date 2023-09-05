@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/login/Login";
-import SignUp from "./pages/signup/SignUp";
+import SignUp from "./pages/signUp/SignUp";
 import PasswordReset from "./pages/password/PasswordReset";
+import Members from "./pages/Admin/members/Members";
 
 function App() {
 	return (
@@ -19,6 +20,10 @@ function App() {
 				<Route
 					path="/resetpassword"
 					element={<PasswordReset />}
+				/>
+				<Route
+					path="/members"
+					element={<Members />}
 				/>
 			</Routes>
 		</>

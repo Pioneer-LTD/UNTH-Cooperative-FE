@@ -4,7 +4,7 @@ const Button = ({ value, onClick, type }) => {
 	return (
 		<div>
 			<button
-				className="bg-dark-primary-green py-3 w-full rounded text-white"
+				className="bg-dark-primary-green py-3 px-4 w-full rounded text-white"
 				onClick={onClick}
 				type={type}>
 				{value}
@@ -15,7 +15,7 @@ const Button = ({ value, onClick, type }) => {
 Button.propTypes = {
 	value: PropTypes.string.isRequired,
 	onClick: PropTypes,
-	type: PropTypes
+	type: PropTypes,
 };
 
 export default Button;
